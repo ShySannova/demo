@@ -342,8 +342,8 @@ img{
 
 .developer{
     text-align: center;
-    font-size: 2.4rem;
-    font-weight: 900;
+    font-size: var(--f-3);
+    font-weight: var(--fw-3);
     text-transform: uppercase;
     color: var(--clr-accent);
     text-shadow: var(--shadow-mode);
