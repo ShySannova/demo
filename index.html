@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+    <main class="container">
+
+        <input type="checkbox" class="switch">
+        <input type="color" class="clr_picker disabled">
+
+        <div class="player_wrapper">
+            <div class="music_container">
+
+            </div>
+            <div class="img_container">
+                <img src="./images/music.png" alt="" srcset="">
+                <audio id="audio" src=""></audio>
+                <div class="current_time"></div>
+                <div class="total_duration"></div>
+            </div>
+            <div class="info">
+                <h2>Are You Happy</h2>
+                <h3>Shy Martin</h3>
+            </div>
+            <span class="progress">
+                <div class="progress_indicator"></div>
+            </span>
+            <div class="controls">
+                <i class="material-icons play_mode" title="Playlist looped">repeat</i>
+                <i class="material-icons prev-btn">skip_previous</i>
+                <i class="material-icons play-pause">play_arrow</i>
+                <i class="material-icons next-btn">skip_next</i>
+                <i class="material-icons playlist">queue_music</i>
+            </div>
+        </div>
+
+    </main>
+
+
+
+
+
+    <script src="./music-list.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
