@@ -340,5 +340,12 @@ img{
 }
 
 
-
+.developer{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--clr-accent);
+    text-shadow: var(--shadow-mode);
+}
 
