@@ -336,6 +336,7 @@ img{
     background-color: inherit;
     padding: calc(var(--spacer)*.4);
     cursor: pointer;
+    color: var(--clr-accent);
 }
 
 
